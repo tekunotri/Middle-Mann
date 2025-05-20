@@ -508,15 +508,15 @@
 			"xpos"									"rs1-60"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"24"
+			"wide"									"90"
 			"tall"									"f9"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"TF2 Icons20"
-			"textAlignment"							"center"
+			"font"									"HudFontSmallBold"
+			"textAlignment"							"east"
 			"Command"								"find_game"
 			"proportionaltoparent"					"1"
-			"labeltext"								"!"
+			"labeltext"								"SEARCH "
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -527,8 +527,25 @@
 			"armedBgColor_override"					"CreditsGreen"
 			"defaultBgColor_override"				"GreenSolid"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
+			"defaultFgColor_override"				"TanLight"
+			"armedFgColor_override"					"TanLight"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"10"
+				"ypos"			"3"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+				"image"			"glyph_multiplayer"
+				"drawcolor_override" "TanLight"
+			}
 		}
 	}
 }
