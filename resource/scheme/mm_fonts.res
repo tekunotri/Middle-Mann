@@ -7,8 +7,8 @@
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS]
-				"name"			"ToonHUD Montserrat" [!$WINDOWS]
+				"name"			"toonhud_montserrat" [$WINDOWS]
+				"name"			"toonhud_montserrat" [!$WINDOWS]
 				"tall"			"13" [$WINDOWS]
 				"tall"			"14" [!$WINDOWS]
 				"weight"		"500"
@@ -20,8 +20,8 @@
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS]
-				"name"			"ToonHUD Montserrat" [!$WINDOWS]
+				"name"			"toonhud_montserrat" [$WINDOWS]
+				"name"			"toonhud_montserrat" [!$WINDOWS]
 				"tall"			"25" [$WINDOWS]
 				"tall"			"20" [!$WINDOWS]
 				"weight"		"0"
@@ -527,6 +527,15 @@
 				"additive"	"0"
 				"antialias" "1"
 			}
+			 "linux"
+			{
+				"name"		"TF2 Build"
+				"tall"		"43"
+				"tall_lodef"	"52"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
 		}
 		"HudFontMediumSmallDAMAGE"
 		{
@@ -729,6 +738,17 @@
 			{
 				"name"		"TF2 Build"
 				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontSmallish1Bold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"15"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2976,29 +2996,29 @@
 			}
 		}
 
-        "TF2 Icons"
+        "tf2icons"
 		{
 			"1"
 			{
-				"name"										"TF2 Icons"
+				"name"										"tf2icons"
 				"tall"										"16"
 				"antialias"									"1"
 			}
 		}
-		"TF2 Icons18"
+		"tf2icons18"
 		{
 			"1"
 			{
-				"name"										"TF2 Icons"
+				"name"										"tf2icons"
 				"tall"										"18"
 				"antialias"									"1"
 			}
 		}
-		"TF2 Icons20"
+		"tf2icons20"
 		{
 			"1"
 			{
-				"name"										"TF2 Icons"
+				"name"										"tf2icons"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -3175,7 +3195,7 @@
 			"font"		"resource/fonts/toonhud_montserrat.ttf"
 			"name"		"toonhud_montserrat"
 		}
-		"12"
+		"19"
 		{
 			"font"		"resource/fonts/tf2icons.ttf"
 			"name"		"tf2icons"

@@ -1,5 +1,4 @@
 // used for preloading custom icons and whatnot
-#base "custom/preload.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -1800,7 +1799,7 @@
 		"xpos"			"c-288"
 		"ypos"			"437"
 		"zpos"			"1"
-		"wide"			"80"
+		"wide"			"82"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -1998,7 +1997,7 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder2"
+		"border_default"	"MainMenuSubButtonBorder"
 
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -2021,7 +2020,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButton"
-		"xpos"			"c-110"
+		"xpos"			"c-111"
 		"ypos"			"437"
 		"zpos"			"4"
 		"wide"			"30"
@@ -2052,8 +2051,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"6"
+			"xpos"			"6"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"15"
 			"tall"			"15"
@@ -2293,7 +2292,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"command"		"engine showconsole; clear; echo middle mann v23.1; echo last updated: 23/02/25" //mostly used for bug reporting, remind self to update this string after every release
+		"command"		"engine showconsole; clear; echo middle mann v23.1.1; echo last updated: 30/03/25" //mostly used for bug reporting, remind self to update this string after every release
 		"labeltext"		"Console"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

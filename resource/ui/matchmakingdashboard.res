@@ -49,15 +49,15 @@
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"19"
+			"wide"									"20"
 			"tall"									"19"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"TF2 Icons18"
+			"font"									"tf2icons18"
 			"textAlignment"							"center"
 			"Command"								"toggle_chat"
 			"proportionaltoparent"					"1"
-			"labeltext"								"R"
+			"labeltext"								"S"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -72,8 +72,9 @@
 			"depressedFgColor_override"				"White"
 
 			"defaultBgColor_override"				"TransparentBlack"
-			"armedBgColor_override"					"Menu_Accent"
-			"depressedBgColor_override"				"Menu_Accent"
+			"armedBgColor_override"					"235 226 202 255"
+			"depressedBgColor_override"				"235 226 202 255"
+
 		}
 		"PartySlot0"
 		{
@@ -311,7 +312,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							"+"
-				"font"								"TF2 Icons"
+				"font"								"tf2icons"
 				"textAlignment"						"center"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
@@ -332,7 +333,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							"b"
-				"font"								"TF2 Icons"
+				"font"								"tf2icons"
 				"textAlignment"						"center"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
@@ -430,7 +431,7 @@
 			"tall"									"f9"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"TF2 Icons20"
+			"font"									"tf2icons20"
 			"textAlignment"							"center"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
@@ -441,11 +442,14 @@
 			"RoundedCorners"						"0"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"192 28 0 50"
-			"defaultBgColor_override"				"192 28 0 150"
+            "defaultBgColor_override"                "192 28 0 150"
+            "armedBgColor_override"                    "192 28 0 50"
+            "depressedBgColor_override"                "192 28 0 50"
+            "depressedFgColor_override"                "TanLight"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
+            "image_drawcolor"                        "235 226 202 255"
+            "image_armedcolor"                        "235 226 202 255"
+            "image_selectedcolor"                    "235 226 202 255"
 		}
 		"DisconnectButton"
 		{
@@ -458,7 +462,7 @@
 			"tall"									"f9"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"TF2 Icons20"
+			"font"									"tf2icons20"
 			"textAlignment"							"center"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
@@ -469,11 +473,14 @@
 			"RoundedCorners"						"0"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"192 28 0 50"
-			"defaultBgColor_override"				"192 28 0 150"
+            "defaultBgColor_override"                "192 28 0 150"
+            "armedBgColor_override"                    "192 28 0 50"
+            "depressedBgColor_override"                "192 28 0 50"
+            "depressedFgColor_override"                "TanLight"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
+            "image_drawcolor"                        "235 226 202 255"
+            "image_armedcolor"                        "235 226 202 255"
+            "image_selectedcolor"                    "235 226 202 255"
 		}
 		"ResumeButton"
 		{
@@ -482,11 +489,11 @@
 			"xpos"									"rs1-48"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"24"
+			"wide"									"16"
 			"tall"									"f9"
 			"visible"								"0"
 			"enabled"								"1"
-			"font"									"TF2 Icons20"
+			"font"									"tf2icons20"
 			"textAlignment"							"center"
 			"Command"								"resume_game"
 			"proportionaltoparent"					"1"
@@ -498,8 +505,8 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
+			"defaultFgColor_override"				"TanLight"
+			"armedFgColor_override"					"TanLight"
 		}
 		"FindAGameButton"
 		{
@@ -508,15 +515,15 @@
 			"xpos"									"rs1-60"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"24"
+			"wide"									"90"
 			"tall"									"f9"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"TF2 Icons20"
-			"textAlignment"							"center"
+			"font"									"HudFontSmallBold"
+			"textAlignment"							"east"
 			"Command"								"find_game"
 			"proportionaltoparent"					"1"
-			"labeltext"								"!"
+			"labeltext"								"SEARCH "
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -527,8 +534,25 @@
 			"armedBgColor_override"					"CreditsGreen"
 			"defaultBgColor_override"				"GreenSolid"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White"
+			"defaultFgColor_override"				"TanLight"
+			"armedFgColor_override"					"TanLight"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"10"
+				"ypos"			"3"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+				"image"			"glyph_multiplayer"
+				"drawcolor_override" "TanLight"
+			}
 		}
 	}
 }

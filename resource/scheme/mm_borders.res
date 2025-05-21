@@ -380,27 +380,28 @@ Borders
 			}
 		}
 
-		MainMenuSubButtonBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "TanDarker"
-					"offset" "0 1"
-				}
-			}
+        MainMenuSubButtonBorder
+        {
+            "inset" "0 0 1 0"
+            "proportional_scalar"    "0.667"
+            Left
+            {
+                "1"
+                {
+                    "color" "TanDarker"
+                    "offset" "0 0"
+                }
+            }
 
-			Right
-			{
-				"1"
-				{
-					"color" "TanDarker"
-					"offset" "1 0"
-				}
-			}
-		}
+            Right
+            {
+                "1"
+                {
+                    "color" "TanDarker"
+                    "offset" "0 0"
+                }
+            }
+        }
 
 		CrosshatchedBackground
 		{
